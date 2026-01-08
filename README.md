@@ -78,6 +78,34 @@ Completed: December 2025
 
 ## Documentation
 
+## Project Gallery
+
+### Mechanical Structure
+![Wooden Frame Structure](image.jpeg)
+*Custom-designed wooden frame prototype with steel halo structure for flag mounting*
+
+![Flag Components](red%20flags.jpeg)
+*3D-printed flag components with magnetic attachment system*
+
+![Metal Parts](metal%20part%202.jpeg)
+![Metal Assembly](metal%20part1.jpeg)
+*Precision metal components for structural support and electromagnet housing*
+
+## Technical Documentation
+
+### Hardware Design Files
+- [Electrical Bill of Materials (BOM)](Electricals_BOM.pdf) - Complete parts list with specifications
+- [Motor Driver Circuit Diagram](Half_Motor_Driver_Curcuit.pdf) - Electromagnet control circuit schematic
+- [PCB Design Files](Finalized_Capstone_PCB_Design.zip) - KiCad files for custom PCB
+- [Controller Configuration](controller_test.ino) - Arduino test code for GPIO control
+
+### Key Components
+- **Microcontroller**: Raspberry Pi 5 with 8GB RAM
+- **Display**: 10.1" Touchscreen Monitor
+- **Electromagnets**: 5V, 10kg holding force (x10)
+- **Motor Driver**: TB6612FNG Dual H-Bridge
+- **Power Supply**: 5V regulated supply, 3.9A total draw
+
 Project presentations and detailed documentation available in the repository.
 
 ---
